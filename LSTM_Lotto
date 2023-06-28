@@ -6,7 +6,7 @@ from keras.layers import LSTM, Dense, Bidirectional, Dropout
 from tensorflow.keras.optimizers import Adam
 
 
-df = pd.read_csv('/kaggle/input/lotto-all-less7-26-april-23/lotto_ALL_LESS_BALL7.csv')
+df = pd.read_csv('/kaggle/input/lotto-28-june-23/lotto_ALL_LESS_BALL7_28_JUNE_23.csv')
 
 print(df.shape)
 
